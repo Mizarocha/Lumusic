@@ -3,47 +3,69 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: "100%",
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#d5d5d5",
   },
 
-  containerPhoto: {
+  containerImage: {
     flex: 1,
     width: "100%",
-    padding: "30%",
     justifyContent: "center",
     alignItems: "center",
+  },
+
+  logo: {
+    width: 150,
+    height: 90,
+    position: "absolute",
+    resizeMode: "center",
+    zIndex: 1,
+  },
+
+  image: {
+    width: "100%",
+    marginTop: "63%",
+    padding: "58%",
+    resizeMode: "contain",
   },
 
   containerForm: {
     flex: 1,
     width: "100%",
-    marginBottom: "15%",
-    marginTop: "8%",
+    marginTop: "65%",
     paddingStart: "5%",
   },
 
   input: {
-    borderBottomWidth: 1,
     marginBottom: 2,
     marginTop: 12,
     margin: 12,
     width: 30,
     height: 40,
   },
+
+  underline: {
+    width: "94%",
+    borderBottomColor: "black",
+    borderBottomWidth: 1,
+  },
+
   wrapperCheckBox: {
     flex: 1,
+    position: "relative",
+    width: "100%",
     flexDirection: "row",
     alignItems: "center",
   },
+
   checkBox: {
     width: 25,
     height: 22,
     borderWidth: 2,
     margin: 28,
-    marginBottom: "10%",
+    marginTop: "31%",
+    marginRight: 2,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -57,22 +79,24 @@ export const styles = StyleSheet.create({
   labelCheck: {
     color: "black",
     fontWeight: "bold",
-
     fontSize: 17,
-    marginLeft: 6,
+    marginLeft: 4,
+    marginTop: "24%",
     marginHorizontal: 28,
-    textAlign: "left",
     textDecorationLine: "underline",
     textDecorationColor: "white",
   },
+
   labelCheck2: {
     color: "black",
     fontWeight: "bold",
-
     fontSize: 17,
+    marginTop: 90,
+    marginHorizontal: 28,
     textDecorationLine: "underline",
     textDecorationColor: "white",
   },
+
   buttonRegister: {
     flex: 1,
     width: "100%",
@@ -80,20 +104,22 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+
   registerText: {
     color: "black",
     fontWeight: "bold",
     fontSize: 18,
-    marginTop: 15,
+    marginTop: "15%",
     marginLeft: 30,
   },
+
   btnRegister: {
     flex: 1,
     backgroundColor: "#FFDE59",
     borderRadius: 8,
     padding: 5,
-    marginBottom: 10,
-    margin: 25,
+    marginTop: "18%",
+    margin: 10,
     alignSelf: "center",
     alignItems: "center",
     justifyContent: "center",

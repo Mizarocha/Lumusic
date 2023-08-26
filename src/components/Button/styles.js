@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 8,
     width: "50%",
     alignSelf: "center",
-    bottom: "25%",
+    bottom: "22%",
     alignItems: "center",
     justifyContent: "center",
   },
